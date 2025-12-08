@@ -32,7 +32,7 @@ $ErrorActionPreference = 'Stop'
 $packageName = 'gitresume'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url         = 'https://github.com/iamhabbeboy/gitresume-cli/releases/download/v0.1.0/gitresume-cli_0.1.0_windows_amd64.zip'
-$checksum    = 'c8af32bf634fefc2af90022f3f5d69891e3ebf043160bc8495de8dc7f78c75f3'
+$checksum    = 'da0ddeb161a9cf04d5bb519f0b381cacc8af2a5649fed90f84805d560ac3d79c'
 $checksumType = 'sha256'
 
 # Step 1: Download and extract the ZIP
